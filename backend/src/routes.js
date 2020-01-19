@@ -4,7 +4,7 @@ const routes = Router();
 
 routes.post("/developers", (request, response) => {
   console.log(request.body);
-  return response.json({ message: "Hello Omnistack" });
+  return response.json({ message: "veja o console" });
 });
 
 module.exports = routes;
